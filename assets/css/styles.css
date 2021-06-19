@@ -6,8 +6,8 @@
 }
 
 :root{
-  --first-color: #a9af72;
-  --second-color: #ffffff;
+  --first-color: #c7250f;
+  --second-color: #ec6222;
 }
 
 :root{
@@ -389,11 +389,6 @@ img{
 
 }
 
-@media screen and (max-width: 710px){
-  .hab__container{
-    display: none;
-  }
-}
 
 .hab__container{
   grid-template-columns: repeat(5, 1fr);
@@ -402,10 +397,6 @@ img{
 }
 
 @media screen and (min-width: 1025px){
-  .bd-grid{
-    margin-left: auto;
-    margin-right: auto;
-  }
   .home__img{
     right: 10%;
     width: 457px;
